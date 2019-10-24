@@ -20,7 +20,6 @@ This project has two springboot applications
 ******* properties file(specify the github url where Configurations are present) *******
 
 spring.application.name=config-server
-# path to properties from root of repo
 spring.cloud.config.server.git.uri=https://github.com/Jaswanth-Stackroute/config-server.git
 server.port=8888
 

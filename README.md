@@ -9,8 +9,8 @@ This project has two springboot applications
 ******* Dependency to be added *******
 
 	<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-config-server</artifactId>
 	</dependency>
   
 ******* Annotation to be added *******
@@ -33,7 +33,6 @@ server.port=8888
                docker run -p 27017:27017 --name mongo -t mongo
  
 ******* Dependency to be added *******
-
 
 <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-config -->
 		<dependency>

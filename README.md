@@ -45,6 +45,7 @@ server.port=8888
 ******* properties file(specify the application name like demo-mongo if properties file name is demo-mongo.properties) *******
 
 spring.application.name=demo-mongo
+
 spring.cloud.config.uri=http://localhost:8888/
 
 Now your spring boot application get configurations from demo-mongo.properties

@@ -22,6 +22,7 @@ This project has two springboot applications
 spring.application.name=config-server
 
 spring.cloud.config.server.git.uri=https://github.com/Jaswanth-Stackroute/config-server.git
+
 server.port=8888
 
 2. Spring Boot application which connects to mongodb running in docker container(It act as config client)

@@ -48,7 +48,7 @@ spring.application.name=demo-mongo
 
 spring.cloud.config.uri=http://localhost:8888/
 
-Now your spring boot application get configurations from demo-mongo.properties
+Now your spring boot application get configurations from demo-mongo.properties file from github
 
 In this case I specified url to connect to mongodb conatiner 
 

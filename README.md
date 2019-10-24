@@ -13,7 +13,7 @@ This project has two springboot applications
 		<artifactId>spring-cloud-config-server</artifactId>
 	</dependency>
   
-******* Annotation to be added *******
+******* Annotation to be added in main method class *******
 
 @EnableConfigServer
 
